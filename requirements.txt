@@ -6,7 +6,7 @@ langchain-groq==0.1.5
 langchain-huggingface==0.0.3
 
 # --- Vector store & tokenization ---
-faiss-cpu==1.8.0
+faiss-cpu==1.7.4
 tiktoken==0.7.0
 
 # --- Validation ---
@@ -17,7 +17,7 @@ pydantic==2.9.2
 python-dotenv==1.0.1  # replaces 'dotenv'
 
 # --- Transformers stack ---
-# install CPU-only PyTorch first (small wheel)
+# install CPU-only PyTorch first (smaller wheel)
 torch --index-url https://download.pytorch.org/whl/cpu
 transformers==4.44.2
 sentence-transformers==3.0.1
