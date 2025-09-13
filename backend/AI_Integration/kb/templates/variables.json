@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Bulb",
+    "dataType": "BOOL",
+    "minRange": "FALSE",
+    "maxRange": "TRUE",
+    "description": "Main Gate Bulb",
+    "tag": null
+  }
+]
